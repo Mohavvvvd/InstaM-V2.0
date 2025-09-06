@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import io from 'socket.io-client';
 import ChatIcon from './ChatIcon';
 
-const socket = io('https://rational-violante-mohavvvvd-3c43263b.koyeb.app/');
+const socket = io('https://instam-v2-0.onrender.com');
 
 function Chat() {
   const [roomId, setRoomId] = useState('');
